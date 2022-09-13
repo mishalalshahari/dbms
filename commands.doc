@@ -11,6 +11,8 @@ select * from <table_name> : Fetch all records from <table_name>.
 select <column_name1>,<column_name2> from <table_name> : Fetch particular columns from <table_name>.
 select * from <table_name> where <condition> : Fetch records from <table_name> according to the condition.
 
+delete from <table_name> where <condition> : Deleting row according to condition.
+
 truncate table <table_name> : Deletes everything data from table_name i.e. not table structure.
 drop table <table_name> : Delete entire table i.e. contents of table as well as whole structure of <table_name>.
 

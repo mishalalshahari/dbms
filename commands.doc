@@ -1,0 +1,16 @@
+sqlplus : start sql environment
+
+create table <table_name> : for creating table.
+desc <table_name> : show description of table.
+
+
+insert into <table_name> values (column1,column2)) : Inserting row contents in all columns.
+insert into <table_name>(column1,column3,column4,....,columnN) values (respective) : Inserting row contents in respective columns.
+
+select * from <table_name> : Fetch all records from <table_name>.
+select <column_name1>,<column_name2> from <table_name> : Fetch particular columns from <table_name>.
+select * from <table_name> where <condition> : Fetch records from <table_name> according to the condition.
+
+truncate table <table_name> : Deletes everything data from table_name i.e. not table structure.
+drop table <table_name> : Delete entire table i.e. contents of table as well as whole structure of <table_name>.
+
